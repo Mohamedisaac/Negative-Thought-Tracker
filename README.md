@@ -72,6 +72,3 @@ This app is perfect for anyone who:
 
 With **Negative Thought Tracker**, you’ll learn to separate realistic concerns from exaggerated fears, helping you build a healthier, more balanced mindset. Start tracking today and see how much of what you worry about actually happens!  
 
---- 
-
-This description highlights the app’s purpose, functionality, and benefits while keeping the tone encouraging and supportive. It also explains the science behind the exercise to help users understand its value.
