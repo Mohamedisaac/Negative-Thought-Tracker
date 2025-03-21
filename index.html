@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negative Thought Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Negative Thought Tracker</h2>
+
+        <label for="date">Select Date:</label>
+        <input type="date" id="date">
+
+        <h3>Negative Thoughts</h3>
+        <ul id="thoughts-list"></ul>
+        <input type="text" id="new-thought" placeholder="Enter a negative thought...">
+        <button onclick="addThought()">Add Thought</button>
+
+        <h3>Mark Which Happened</h3>
+        <button onclick="calculateRatio()">Calculate Ratio</button>
+
+        <h3>Results</h3>
+        <p id="result"></p>
+
+        <h3>Progress Over Time</h3>
+        <canvas id="progressChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
